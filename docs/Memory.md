@@ -19,6 +19,7 @@ Format: `Date | Decision | Why | Alternatives considered`
 | 2026-10-27 | Proposed stack: FastAPI, SQLite, React with Vite and Tailwind, SAM 3.1 worker on a rented GPU | Fast to build and easy to validate model output | Django with DRF (also fine; switch only if it is clearly faster for you) |
 | *TBD (Day 2)* | Concept approach (detect `person` and `face mask` separately, then compute overlap) | To be validated on a real frame | Direct prompt "person without mask" |
 | *TBD (Day 3)* | Agent method: tool calling versus structured JSON | Depends on endpoint support | |
+| 2026-10-27 | Use the official SAM 3.1 GitHub repo (facebookresearch/sam3) with the HF checkpoints; no Transformers route | The HF page says it hosts checkpoints only | Hugging Face Transformers (not supported) |
 
 **Post-MVP ideas (parking lot, do not start early):** multi-camera view, more hazard types, Bangla interface, real-time streaming.
 
