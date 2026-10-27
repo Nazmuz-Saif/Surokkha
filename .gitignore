@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.env
+*.key
+__pycache__/
+node_modules/
+samples/raw/
+*.mp4
